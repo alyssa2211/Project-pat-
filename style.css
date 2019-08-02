@@ -1,0 +1,201 @@
+*{
+    margin : 0;
+    padding : 0;
+  }
+
+.navbar {
+    background-color:rgb(248, 248, 248);
+  }
+
+.nav-item{
+      padding-right: auto;
+      padding-left: 180px;
+      justify-content: space-around;
+  }
+
+/* end of nav bar */
+
+/* sec1 aout us  */
+.sec1{
+    background-image:url("https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-0/p370x247/52293410_809501292735236_8907292173632798720_n.jpg?_nc_cat=101&_nc_oc=AQleOyvGnXncOPJrKXaSf8KtoSUA_K_T0yyvygOkDuB5qjoxYs-WjTFMY7Yx_rMbBMk&_nc_ht=scontent.ftun3-1.fna&oh=f36be19093fa8e3bf0e61f671807db96&oe=5DAC9E6D");
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.left{
+    align-content: center;
+    padding-left: 35%;
+    padding-top: 10%;  
+    padding-right: 25%;
+    font-size: 3vh;
+}
+h2{
+    text-decoration: underline cornflowerblue;
+    text-decoration-style: wavy;
+    padding-left: 40%;
+    font-size: 3vh;
+}
+.ab{
+    background-color: rgba(245, 245, 220, 0.808);
+    border: solid rgba(248, 154, 120, 0.774);
+    border-radius: 10%;
+    padding-left: 5%;
+}
+
+/* rajouter image background plage ecriture en blanc changer la police */
+
+
+/* sec 2 gallery photo */
+.sec2{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+.sec2 .carousel-inner{
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* sec3 shops */
+.sec3{
+    background: radial-gradient(ellipse at top, #6b68f5, transparent),
+    radial-gradient(ellipse at bottom, #87d7fc, transparent);
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec3 h2{
+    align-content: center;
+    color:black;
+    text-decoration: underline yellow;
+    text-decoration-style: wavy;
+    padding-left: 25%;
+  font-size: 2em;
+}
+
+.box h1{
+    margin: 5%;
+    color: black;
+    font-style: italic;
+    padding-left: 20%;
+}
+.box{
+    background-color: rgba(245, 245, 220, 0.541);
+    border: solid rgba(248, 154, 120, 0.774);
+    border-radius: 10%;
+    width: 10%;
+    margin:5%;  
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+.boxs{ 
+    display:flex;
+    align-content: space-around;
+    padding-top: 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box img{
+    padding-left: 30%;
+    padding-top: 5%;
+    transition: 1s;
+}
+
+.box img:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(2)  
+}
+
+
+/* nwesletter */
+.sec4{
+    background-image:url("https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-0/p370x247/52293410_809501292735236_8907292173632798720_n.jpg?_nc_cat=101&_nc_oc=AQleOyvGnXncOPJrKXaSf8KtoSUA_K_T0yyvygOkDuB5qjoxYs-WjTFMY7Yx_rMbBMk&_nc_ht=scontent.ftun3-1.fna&oh=f36be19093fa8e3bf0e61f671807db96&oe=5DAC9E6D");
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    padding-left: 35%;
+    padding-top: 15%; 
+}
+
+input {
+    display: block;
+    background-color: burlywood;
+    color: black;
+    text-decoration: none;
+    font-size: 2vh;
+    margin-left: 25%;
+}
+
+label{
+    padding-top: 8%;
+    color: black;
+    text-decoration: none;
+    font-size: 3vh;
+    margin-left: 25%;
+}
+
+
+.title h3{
+    padding-left: 33%;
+    align-items: center;
+    text-decoration: underline rgb(237, 235, 100);
+    text-decoration-style: wavy;
+}
+
+.button {
+    padding-top: 5%;
+    align-items:center;
+    padding-left: 40%;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+.sec-box{
+    background-color: rgba(165, 165, 235, 0.747);
+    width: 40%;
+    height: 80%;
+    border:solid #deb887 ;
+    border-radius: 30%;
+}
+
+ /* background picture paté de sable + firebase link */
+ 
+ 
+ .separator{
+     width: 2px;
+     background-color: black;
+     height: 90%;
+     margin-left: 10%;
+     margin-right: 0%;
+ }
+
+.footer{
+    background-color: gray;  
+    display:flex;
+    padding-top:20px;
+    padding-left: 20px;
+    justify-content: space-around;
+    height: 17vh;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 3vh;
+    color: white;
+}
+
+
+/* separator  */
